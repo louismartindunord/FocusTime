@@ -7,6 +7,7 @@ import { TextInput } from 'react-native-paper';
 
 import {RoundedButton} from '../components/RoundedButton';
 import {spacing} from '../utils/sizes'
+import { FocusHistory } from './FocusHistory';
 
 export const Focus = ({addSubject}) => {
   const [subject, setSubject] = useState(null);
